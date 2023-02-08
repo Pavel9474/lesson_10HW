@@ -1,6 +1,6 @@
 import telebot
 
-bot = telebot.TeleBot("5897261595:AAGTJX0TOAAtWZVM13-QjpCcAdZZyb1LZBU")
+bot = telebot.TeleBot("")
 
 # Задача 1. Напишите бота для техподдержки. 
 # Бот должен записывать обращения пользователей в файл.

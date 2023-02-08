@@ -1,7 +1,7 @@
 import telebot
 # Задача 2. Напишите программу, которая позволяет считывать из файла вопрос, 
 # отвечать на него и отправлять ответ обратно пользователю.
-bot = telebot.TeleBot("5897261595:AAGTJX0TOAAtWZVM13-QjpCcAdZZyb1LZBU")
+bot = telebot.TeleBot("")
 def answer_question():
         with open('messages.txt', 'r', encoding='utf-8') as file:
             message_list=str(file.read()).split('\n')
